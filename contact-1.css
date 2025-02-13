@@ -21,7 +21,7 @@ body {
 .third {
     width: 100%;
     text-align: left;
-    margin-left: 145px;
+    margin-left: 75px;
 }
 
 .first h1,
@@ -89,4 +89,33 @@ h3 {
     .college-image {
         max-width: 60%;
     }
+}
+
+.contact-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.contact-table table {
+    width: 100%;
+    border: 1px solid #3845fc;
+}
+
+.contact-table th, .contact-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #3845fc;
+}
+
+.contact-table th {
+    background-color: #04509b;
+    color: white;
+}
+
+.contact-table tr:nth-child(even) {
+    background-color: #b5d1e8;
+}
+.contact-table tr:nth-child(odd) {
+    background-color: #b5d1e8;
 }
